@@ -1,0 +1,53 @@
+inicio
+LIMPIAR RADAR
+comenzo a ejecutarse: 2020-08-31 19:15:11.167619
+termino de ejecutarse: 2020-08-31 19:40:26.858038
+termine!
+FACT RADAR
+comenzo a ejecutarse: 2020-08-31 19:40:27.252979
+antes de hacer el TRUNCATE de la fact de radar
+antes del select de datos_radar
+despues del select
+
+Registros insertados: 24026
+despues del select del acumulado
+termino de ejecutarse: 2020-08-31 20:08:20.288325
+Importing plotly failed. Interactive plots will not work.
+INFO:fbprophet:Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+INFO:fbprophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+
+
+INICIO MODELOS
+inicia el flujo
+datos obtenidos 105
+se generó data frame de fechas relevantes
+se generó data frame de fechas relevantes con desplazamiento
+se obtuvieron los datos de Google
+se generó data frame con desplazamientos de datos de Google
+se hizo pre-bagging
+el score de entrenamiento es 0.9368768995289133 , mientras que el score de prueba es 0.8418226603572858
+se obtienen las principales características para modelar
+RMSE: 0.141640
+terminó XGBoost
+ARIMA
+insertando en la BD
+Prophet
+insertando datos de Prophet en la DB
+¡Listo!
+Geolocalizacion
+comenzo a ejecutarse: 2020-08-31 20:08:47.275061
+Registros insertados: 0
+termino de ejecutarse: 2020-08-31 20:08:47.458970
+GEOCODER ColoNiAS
+LIMPIAR SSA
+comenzo a ejecutarse: 2020-08-31 20:51:10.149494
+Registros insertados: 1026294
+termino de ejecutarse: 2020-08-31 20:55:33.803207
+FACT SSA
+comenzo a ejecutarse: 2020-08-31 20:55:34.121747
+antes de hacer el TRUNCATE de la fact de secretaria
+antes del select de datos_secretaria
+despues del select
+despue del insert inicial en la tabla de la fact_secretaria... 
+Registros insertados: 471644
+termino de ejecutarse: 2020-08-31 20:55:54.405817
